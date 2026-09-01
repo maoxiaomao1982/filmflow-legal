@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Filmflow 隐私政策 —— 所有图片与视频处理均在设备本地完成，不收集、不上传任何个人数据。">
+<meta name="description" content="Filmflow 隐私政策 —— 一款离线运行的视频制作流程管理工具。不联网、不收集、不上传任何个人数据，所有项目数据仅存放在你的设备本地。">
 <title>Filmflow 隐私政策 · Igva Design</title>
 <style>
   :root{
@@ -26,7 +26,6 @@
     color:var(--ink);background:var(--bg);line-height:1.8;
     -webkit-font-smoothing:antialiased;
   }
-  /* Top brand bar */
   .topbar{max-width:860px;margin:0 auto;padding:22px 24px 0;display:flex;align-items:center;gap:10px}
   .logo{display:flex;align-items:center;gap:9px;font-weight:700;letter-spacing:.4px}
   .logo .mark{
@@ -36,7 +35,6 @@
   }
   .logo small{color:var(--muted);font-weight:600;font-size:13px}
 
-  /* Hero */
   .hero{
     max-width:860px;margin:18px auto 0;padding:46px 34px 40px;border-radius:26px;
     background:radial-gradient(120% 120% at 0% 0%,#fff5f0 0%,#fffaf7 55%);
@@ -61,8 +59,11 @@
   .hl{background:var(--brand-soft);border-left:3px solid var(--brand);border-radius:8px;padding:12px 16px;color:var(--ink);font-size:14.5px}
   a{color:var(--brand);text-decoration:none;font-weight:600}
   a:hover{text-decoration:underline}
+  .flow{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 4px}
+  .flow span{background:var(--brand-soft);border:1px solid #ffd9cc;color:#c0492a;
+    font-size:13.5px;font-weight:700;padding:5px 13px;border-radius:999px}
+  .flow i{color:var(--brand-2);font-style:normal;font-weight:800;align-self:center}
 
-  /* Signature footer */
   footer{
     max-width:760px;margin:34px auto 0;padding:22px;border-top:1px solid var(--line);
     color:var(--muted);font-size:13px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;
@@ -80,52 +81,89 @@
   <section class="hero">
     <span class="pill">隐私政策 / Privacy Policy</span>
     <h1>Filmflow</h1>
-    <p class="lead">一款在设备本地完成图片与视频处理的工具。我们认真对待你的隐私。</p>
-    <div class="updated">最后更新：2026 年 8 月 20 日</div>
+    <p class="lead">一款离线运行的视频制作流程管理工具。我们认真对待你的隐私。</p>
+    <div class="updated">最后更新：2026 年 9 月 1 日</div>
   </section>
 
   <div class="wrap">
 
     <div class="card">
-      <div class="hl">一句话结论：<b>我们不会收集、上传或存储你的任何个人数据。</b>你处理的照片与视频始终留在你的设备上。</div>
+      <div class="hl">一句话结论：<b>Filmflow 不联网、不收集、不上传任何数据。</b>你的全部项目信息仅保存在你自己的设备上，我们无法看到，也从未看到。</div>
     </div>
 
     <div class="card">
-      <h2><span class="dot"></span>1. 我们收集的信息</h2>
-      <p>我们不主动收集、上传或保存任何个人数据。你在使用 Filmflow 时产生的照片、视频及编辑结果，全部在设备本地处理，不会发送到任何服务器。</p>
+      <h2><span class="dot"></span>1. Filmflow 是什么</h2>
+      <p>Filmflow 帮助你把一条视频从策划到交付的过程管起来，分四个阶段推进：</p>
+      <div class="flow">
+        <span>脚本</span><i>›</i><span>拍摄</span><i>›</i><span>剪辑</span><i>›</i><span>完成</span>
+      </div>
+      <p>你可以粘贴脚本文本或导入表格来生成镜头清单，在拍摄阶段逐条勾选进度，在剪辑阶段跟踪粗剪、调色、混音等任务，最后汇总交付。所有这些都是<strong>纯文本与表格数据</strong>，不涉及拍摄素材本身。</p>
     </div>
 
     <div class="card">
-      <h2><span class="dot"></span>2. 照片与视频数据</h2>
+      <h2><span class="dot"></span>2. 我们收集的信息</h2>
+      <p><strong>我们不收集任何信息。</strong>Filmflow 没有账号系统，不需要注册或登录，也不要求你提供姓名、邮箱、手机号等任何身份信息。</p>
       <ul>
-        <li>所有滤镜、调色、裁剪、水印等操作均在设备本地完成。</li>
-        <li>我们不会将你的照片或视频上传到云端，也不用于任何分析、模型训练或商业用途。</li>
-        <li>导出与保存完全由你主动触发，文件仅保留在你的相册或你指定的位置。</li>
+        <li>我们没有服务器，也没有数据库，因此没有任何地方可以存放你的数据。</li>
+        <li>App 运行期间不发起任何网络请求，断网状态下功能完全不受影响。</li>
+        <li>我们不会读取你的通讯录、相册、定位、相机或麦克风。</li>
       </ul>
     </div>
 
     <div class="card">
-      <h2><span class="dot"></span>3. 分析与崩溃数据</h2>
-      <p>为提升稳定性，App 可能使用系统级崩溃报告（由 Apple 提供）。这类报告不包含你的照片、视频或任何可识别个人身份的内容。我们不会自行埋点收集你的操作行为。</p>
-    </div>
-
-    <div class="card">
-      <h2><span class="dot"></span>4. 你的权利</h2>
+      <h2><span class="dot"></span>3. 数据如何存储</h2>
+      <p>你录入的脚本文本、镜头清单、进度勾选状态等，全部保存在 App 在本机的私有存储区内，属于操作系统为 App 分配的沙盒空间。</p>
       <ul>
-        <li>你对自己的照片、视频及设备数据拥有完全控制权。</li>
-        <li>你可随时卸载 App 清除本地缓存，无需向我们申请。</li>
-        <li>如对数据有任何疑问，可通过下方联系方式与我们联系。</li>
+        <li>这些数据<strong>仅存在于你的设备本地</strong>，不会同步到云端，也不会在我们不知情的情况下离开你的设备。</li>
+        <li>我们不提供云同步，因此换设备时数据不会自动迁移；如需备份，请使用 App 内的导出功能。</li>
+        <li>删除 App 会连同这些数据一并清除。</li>
       </ul>
     </div>
 
     <div class="card">
-      <h2><span class="dot"></span>5. 联系我们</h2>
-      <p>如对本隐私政策有疑问，欢迎邮件联系：<a href="mailto:maoxiaomao198206@163.com">maoxiaomao198206@163.com</a></p>
+      <h2><span class="dot"></span>4. 我们申请的权限</h2>
+      <p>Filmflow 只在一件事上需要你的授权：<strong>把文件保存到你指定的位置</strong>。当你主动点击导出时，系统会弹出文件选择器，由你决定保存到哪里（例如「文件」App 或 iCloud 云盘等由你选择的位置）。</p>
+      <p>除此之外，我们不申请也不使用相机、相册、麦克风、定位、通讯录、日历、蓝牙等任何权限。</p>
     </div>
 
     <div class="card">
-      <h2><span class="dot"></span>6. 政策更新</h2>
-      <p>若未来版本引入任何需要联网或收集数据的功能，我们会在此页面同步更新并明确说明。建议偶尔回看本政策。</p>
+      <h2><span class="dot"></span>5. 分析、追踪与广告</h2>
+      <ul>
+        <li>我们<strong>没有</strong>接入任何第三方统计、分析或广告 SDK。</li>
+        <li>我们<strong>不会</strong>埋点记录你的操作行为，也不会追踪你在 App 内的使用路径。</li>
+        <li>App 内<strong>没有广告</strong>，也不存在任何形式的个性化推荐或用户画像。</li>
+        <li>如你已在系统设置中开启「与开发者共享」的崩溃报告，Apple 可能会向我们提供匿名的崩溃日志。这类日志不包含你的项目内容，也无法识别你的身份；你可在系统设置中随时关闭。</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2><span class="dot"></span>6. 购买与支付</h2>
+      <p>Filmflow 为<strong>一次性买断</strong>付费 App，不含内购、不含订阅、不含试用期。付款流程完全由 Apple 的 App Store 完成，我们<strong>不会接触也不会记录</strong>你的支付方式、卡号或账单信息。</p>
+    </div>
+
+    <div class="card">
+      <h2><span class="dot"></span>7. 你的控制权</h2>
+      <ul>
+        <li>你可随时在 App 内一键清空全部项目数据，无需向我们提出申请。</li>
+        <li>卸载 App 即可彻底移除其在本机保存的所有内容。</li>
+        <li>如需导出或迁移数据，使用 App 内的导出功能即可，文件由你自己保管。</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2><span class="dot"></span>8. 儿童隐私</h2>
+      <p>Filmflow 是面向视频创作者的生产力工具，并非面向 13 岁以下儿童设计的产品。我们不会有意收集儿童的个人信息；由于 App 本身不收集任何数据，这一点在技术上即已成立。</p>
+    </div>
+
+    <div class="card">
+      <h2><span class="dot"></span>9. 联系我们</h2>
+      <p>如对本隐私政策有疑问，或希望我们澄清任何数据处理相关的问题，欢迎邮件联系：<a href="mailto:maoxiaomao198206@163.com">maoxiaomao198206@163.com</a></p>
+      <p>我们通常会在 1–3 个工作日内回复。</p>
+    </div>
+
+    <div class="card">
+      <h2><span class="dot"></span>10. 政策更新</h2>
+      <p>若未来版本引入任何需要联网、涉及数据传输或新增权限的功能，我们会先在此页面更新说明，并在 App 内明确告知后再启用相关政策。建议你偶尔回看本页。</p>
     </div>
 
   </div>
